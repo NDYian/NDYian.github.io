@@ -4,8 +4,10 @@
 
 > 用Markdown语言编写的笔记
 
-- 方便、快捷
-- 持续更新……
+- 始于2024年2月18日
+- 持续更新中
 
 [GitHub](https://github.com/NDYian/NDYian.github.io)
 [开始阅读](#鲶大禹的专业课笔记)
+
+![](_media/bg2.png)

@@ -36,6 +36,23 @@
 					errorText: "失败！",
 					successText: "成功！",
 				},
+
+				// 页脚
+				plugins: [
+					function (hook) {
+						var footer = [
+							"<hr/>",
+							"<footer>",
+							'<span><a href="https://github.com/NDYian">鲶大禹</a> &copy;2024 </span>',
+							'<span>本文档借助 <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> 编写</span>',
+							"</footer>",
+						].join("")
+
+						hook.afterEach(function (html) {
+							return html + footer
+						})
+					},
+				],
 			}
 		</script>
 		<!-- Docsify v4 -->
