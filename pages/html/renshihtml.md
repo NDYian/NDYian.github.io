@@ -3,17 +3,17 @@
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>鲶大禹的笔记</title>
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8">
+    <title>鲶大禹的笔记</title>
+  </head>
+  <body>
     
-        <h1>我的第一个标题</h1>
+    <h1>我的第一个标题</h1>
         
-        <p>我的第一个段落。</p>
+    <p>我的第一个段落。</p>
     
-    </body>
+  </body>
 </html>
 ```
 
@@ -25,7 +25,7 @@ HTML 是用来描述网页的一种语言。
 - HTML 文档包含了HTML **标签**及**文本**内容
 - HTML 文档也叫做 **web 页面**
 
-# 实例解析
+## 实例解析
 
 <div align="center">
     <img src="https://s11.ax1x.com/2024/02/18/pFJWXTI.png" alt="实例解析" width="85%">
@@ -48,30 +48,30 @@ HTML 是用来描述网页的一种语言。
 
 而更多格式化的内容，我们将在下个章节讲述。
 
-# 格式化
+## 格式化
 
 为保证代码的可读性，我们通常会在有包含关系的代码前加入缩进字符。**（这是重点嗷！！）**  
 就像这样：
 
 ```html
 <html>
-    <head>
-        <style>
-        </style>
-    </head>
+  <head>
+    <style>
+   </style>
+  </head>
 
-    <body>
-        <div>
-            <img src="鲶大禹" alt="的笔记">
-        </div>
-    </body>
+  <body>
+    <div>
+      <img src="鲶大禹" alt="的笔记">
+    </div>
+  </body>
 </html>
 ```
 
 在上述代码中， `<head>` 标签与 `<body>` 标签都是包含在 `<html>` 标签中的，而 `<style>` 标签则是包含在 `<head>` 标签中的。所以，在这些代码前，我加了缩进来表示包含关系。  
 缩进可以是两个空格，也可以是四个空格，甚至可以是空格与制表符 <kbd>Tab</kbd> 的混合。但使用缩进的最终目的，都将是使代码的可读性最大化。
 
-# HTML标签
+## HTML标签
 
 HTML 标记标签通常被称为 HTML 标签 (HTML tag)。
 - HTML 标签是由尖括号包围的关键词，比如 `<html>`
@@ -86,14 +86,14 @@ HTML 标记标签通常被称为 HTML 标签 (HTML tag)。
 
 ?> 需要注意的是，若不是单标签，那就必须存在闭合标签，否则就可能出现不生效的问题。
 
-# HTML网页结构
+## HTML网页结构
 
 这是一个可视化的HTML页面结构：  
 ![网页结构](https://s11.ax1x.com/2024/02/18/pFJoeQf.png)
 
 !> 	只有 `<body>` 区域（白色部分）才会在浏览器中显示。
 
-# <!DOCTYPE> 声明
+## <!DOCTYPE> 声明
 
 `<!DOCTYPE>` 声明有助于浏览器中正确显示网页。
 

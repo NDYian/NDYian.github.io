@@ -1,3 +1,26 @@
+<style>
+    .zoomImage25 {
+        width: 25%;
+    }
+    .zoomImage {
+        width: 70%;
+    }
+    .zoomImage50 {
+        width: 50%;
+    }
+    @media only screen and (max-width: 768px) {
+        .zoomImage {
+            width: 100%;
+        }
+        .zoomImage25 {
+            width: 70%;
+        }
+        .zoomImage50 {
+            width: 100%;
+        }
+    }
+</style>
+
 # 前期准备
 
 在此，我极力推荐使用 [VScode](https://code.visualstudio.com/)来编写程序。
@@ -27,13 +50,13 @@
 点击左侧的插件图标，进入插件商店：
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJOe4e.jpg" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJOe4e.jpg" class="zoomImage">
 </div>
 
 你可以在上方搜索框中搜索插件：
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJLwTO.png" width="25%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJLwTO.png" class="zoomImage25">
 </div>
 
 在搜索到插件后点击 `安装` 或 `install` 即可。
@@ -43,7 +66,7 @@
 此插件可以将VScode界面汉化，以保证你更好的开发体验。在安装完毕后，根据**右下角**提示重启VScode即可。
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJLLn0.png" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJLLn0.png" class="zoomImage">
 </div>
 
 ## Auto Rename Tag
@@ -51,7 +74,7 @@
 此插件可以自动修改标签名，在修改开始标签时，结束标签也会一同更改。
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJLbXq.png" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJLbXq.png" class="zoomImage">
 </div>
 
 ## Auto Close Tag
@@ -59,7 +82,7 @@
 此插件可以自动闭合标签，在打出开始标签后会自动跟上结束标签，避免了手动闭合标签的麻烦。
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJLHcn.png" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJLHcn.png" class="zoomImage">
 </div>
 
 ## Live Server
@@ -67,7 +90,7 @@
 此插件可以在保存代码的时候自动刷新网页预览，方便我们进行预览，也养成了随手 <kbd>**Ctrl**</kbd> **+** <kbd>**S**</kbd> 保存的习惯。
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJL71s.png" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJL71s.png" class="zoomImage">
 </div>
 
 ## Prettier
@@ -77,7 +100,7 @@
 !> 注意！此插件<font style="color:#ff6666;font-weight: bold;">非常不推荐</font>初学者使用。在刚开始学习时，我们必须自己熟练掌握代码的格式化，而不是借助插件。
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJLTpj.png" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJLTpj.png" class="zoomImage">
 </div>
 
 安装好这个插件后，我们需要做几个简单的设置才能使此插件生效。
@@ -87,19 +110,19 @@
 依次点击 `文本编辑器` > `格式化` > `Formate On Save`。
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJOZND.png" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJOZND.png" class="zoomImage">
 </div>
 
 设置完后，回到VScode界面，打开任意一个html文件，右键空白处，选择 `使用…格式化文档`。
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJOlut.png" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJOlut.png" class="zoomImage">
 </div>
 
 然后选择 `配置默认格式化程序…` > `Prettier - Code formatter` 即可完成设置。
 
 <div align="center">
-    <img src="https://s11.ax1x.com/2024/02/19/pFJOJUS.png" width="70%">
+    <img src="https://s11.ax1x.com/2024/02/19/pFJOJUS.png" class="zoomImage">
 </div>
 
 ?> 现在，当你按下 <kbd>**Ctrl**</kbd> **+** <kbd>**S**</kbd> 时，代码就会自动格式化啦~
@@ -119,7 +142,7 @@
 
 ## 选定多个相同的单词
 
-<font style="color:#42b983;font-weight: bold;">快捷键：</font><kbd>**Ctrl**</kbd> **+** <kbd>**D**</kbd>
+<font style="color:#42b983;font-weight: bold;">快捷键：</font><kbd>**Ctrl**</kbd> **+** <kbd>**D**</kbd>  
 先双击选定一个单词，然后按下 <kbd>**Ctrl**</kbd> **+** <kbd>**D**</kbd> 可以往下依次选择相同的单词。这样同时修改相同的单词就非常方便。
 
 <div align="center">
@@ -131,7 +154,7 @@
 <font style="color:#42b983;font-weight: bold;">快捷键：</font><kbd>**Ctrl**</kbd> **+** <kbd>**Alt**</kbd> **+** <kbd>**↑**</kbd> / <kbd>**↓**</kbd>
 
 <div align="center">
-    <img src="https://pic.imgdb.cn/item/65d24e029f345e8d03ce3b18.gif" width="50%">
+    <img src="https://pic.imgdb.cn/item/65d24e029f345e8d03ce3b18.gif" class="zoomImage50">
 </div>
 
 ## 选择某个区块
